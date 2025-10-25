@@ -39,8 +39,8 @@ pip install PyQt5 PyQtWebEngine
 
 Clone the repository:
 
-git clone https://github.com/your-username/CometBrowser.git
-cd CometBrowser
+git clone (https://github.com/username/Webbrowser.git)
+cd webbrowser.py
 
 
 Run the browser:
