@@ -1,100 +1,113 @@
-LightBrowser
+🌐 LightBrowser
 
 A Fast, Modern, and Customizable Web Browser built with PyQt5
 
-<!-- Optional: add a screenshot of your browser -->
+A fully functional, lightweight web browser made in Python — featuring tabbed browsing, ad-blocking, incognito mode, bookmarks, and dark/light themes.
 
-Features
+🖼️ Preview
 
-Tabbed Browsing: Open multiple websites in separate tabs.
+(Optional)
+Add your screenshot here:
 
-Bookmarks: Save your favorite websites for quick access.
+![LightBrowser Screenshot](screenshot.png)
 
-History: Keep track of visited websites.
+🚀 Features
 
-Incognito Mode: Browse privately without saving history or cookies.
+🗂️ Tabbed Browsing — Open multiple websites in separate tabs.
 
-Ad-Blocking: Automatically removes common ads and pop-ups.
+⭐ Bookmarks — Save and access your favorite sites easily.
 
-Download Manager: Easily download files with a file save dialog.
+🕓 History Tracking — Keep a log of all visited websites.
 
-Dark/Light Theme Toggle: Switch between light and dark modes.
+🕶️ Incognito Mode — Browse privately without history or cookies.
 
-Keyboard Shortcuts:
+🚫 Ad-Blocking — Removes most pop-ups and ads automatically.
 
-Ctrl+T – New Tab
+💾 Download Manager — Easily download and manage files.
 
-Ctrl+W – Close Tab
+🌙 Dark/Light Mode Toggle — Switch between themes effortlessly.
 
-Ctrl+R – Reload Current Page
+⌨️ Keyboard Shortcuts:
 
-Installation
+Ctrl + T → New Tab
 
-Make sure you have Python 3.8+ installed.
+Ctrl + W → Close Tab
 
-Install the required dependencies:
+Ctrl + R → Reload Page
 
+⚙️ Installation
+🧩 Requirements
+
+Python 3.8+
+
+PyQt5 & PyQtWebEngine
+
+🔧 Setup
+# Install dependencies
 pip install PyQt5 PyQtWebEngine
 
+# Clone the repository
+git clone https://github.com/deepjyoti-dev/LightBrowser.git
+cd LightBrowser
 
-Clone the repository:
-
-git clone (https://github.com/username/Webbrowser.git)
-cd webbrowser.py
-
-
-Run the browser:
-
+# Run the browser
 python webbrowser.py
 
-Usage
-
-Open a new tab: Click the “New Tab” button or press Ctrl+T.
-
-Close a tab: Click the close icon on the tab or press Ctrl+W.
-
-Navigate: Type a URL in the address bar and press Enter.
-
-Bookmarks: Click the “Bookmark” button to save a page; access saved bookmarks via the “Bookmarks” panel.
-
-History: View visited sites using the “History” panel.
-
-Incognito: Click “Incognito” to open a private browsing tab.
-
-Toggle Theme: Click the “Toggle Theme” button to switch between light and dark modes.
-
-Project Structure
-CometBrowser/
+🧠 Usage
+Action	How To
+Open new tab	Click “New Tab” or press Ctrl + T
+Close tab	Click the close icon or press Ctrl + W
+Navigate	Type a URL in the address bar and press Enter
+Bookmark a site	Click the “Bookmark” button
+View bookmarks	Open “Bookmarks” panel
+View history	Open “History” panel
+Incognito mode	Click “Incognito” for private tab
+Toggle theme	Click “Toggle Theme” button
+📂 Project Structure
+LightBrowser/
 │
-├─ webbrowser.py         # Main application script
-├─ README.md             # Project documentation
-├─ screenshot.png        # Optional screenshot of the browser
-└─ ...
+├── webbrowser.py         # Main application script
+├── README.md             # Project documentation
+├── screenshot.png         # Optional UI screenshot
+└── ...
 
-Contributing
+🔮 Future Enhancements
 
-Contributions are welcome! If you want to add features, improve ad-blocking, or fix bugs:
+⚡ Enhanced ad-blocking using filter lists
+
+🏠 Customizable homepage
+
+⚙️ Browser settings panel
+
+🧩 Extension support
+
+🪄 Voice-based search integration (planned)
+
+🤝 Contributing
+
+Contributions are welcome!
 
 Fork the repository
 
-Create a new branch (git checkout -b feature-name)
+Create a branch → git checkout -b feature-name
 
-Commit your changes (git commit -m "Add feature")
+Commit changes → git commit -m "Add feature"
 
-Push to the branch (git push origin feature-name)
+Push → git push origin feature-name
 
 Open a Pull Request
 
-License
+📜 License
 
-This project is licensed under the MIT License.
+Licensed under the MIT License — you’re free to use, modify, and distribute this project with attribution.
 
-Future Features (Planned)
+🏷️ Tags
 
-Enhanced ad-blocking using filter lists
+#python #pyqt5 #pyqtwebengine #browser #gui #desktopapp #opensource
 
-Customizable homepage
+🧑‍💻 Author
 
-Browser settings panel
+Deepjyoti Das
+🔗 [LinkedIn](https://www.linkedin.com/in/deepjyotidas1)
 
-Extensions support
+💻 GitHub
